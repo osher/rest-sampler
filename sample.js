@@ -10,7 +10,8 @@ var //built in
 
 log.debug("arguments\n",args);
 log.info(
-   [ "sampling"
+   [ "started"
+   , "sampling"
    , ""
    , "  sampling URL: %s"
    , "  interval    : %s"
@@ -24,3 +25,13 @@ log.info(
 
 sample();
 
+process.on('SIGINT', terminate);
+process.on('SIGTERM', terminate);
+process.on('uncaughtException', function(e) {
+    log.error(e.stack, e);
+});
+
+function terminate() {
+    log.info("-- stopped \n---------------------------------------------------------------------------")
+    process.exit();
+}

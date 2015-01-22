@@ -1,8 +1,11 @@
 {
   "name": "rest-sampler",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A small CLI utility to sample REST apis every given interval",
   "main": "sampler",
+  "bin" : { 
+    "sample" : "bin/sample"
+  },
   "scripts": {
     "test": "mocha"
   },

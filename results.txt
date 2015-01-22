@@ -1,0 +1,113 @@
+[2015-01-22 15:52:23.904] [INFO] sampler - start
+---------------------------------------------------------------------------
+sampling
+
+  sampling URL: http://google.com
+  interval    : 5000
+  output file : results.txt
+
+[2015-01-22 15:52:25.614] [WARN] sampler - cannot parse response body: SyntaxError: Unexpected token <
+    at Object.parse (native)
+    at Request._callback (D:\ws\open-source\rest-sampler\lib\sample.js:31:35)
+    at Request.self.callback (D:\ws\open-source\rest-sampler\node_modules\request\request.js:373:22)
+    at Request.EventEmitter.emit (events.js:98:17)
+    at Request.<anonymous> (D:\ws\open-source\rest-sampler\node_modules\request\request.js:1318:14)
+    at Request.EventEmitter.emit (events.js:117:20)
+    at IncomingMessage.<anonymous> (D:\ws\open-source\rest-sampler\node_modules\request\request.js:1266:12)
+    at IncomingMessage.EventEmitter.emit (events.js:117:20)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+[2015-01-22 15:52:31.548] [WARN] sampler - cannot parse response body: SyntaxError: Unexpected token <
+    at Object.parse (native)
+    at Request._callback (D:\ws\open-source\rest-sampler\lib\sample.js:31:35)
+    at Request.self.callback (D:\ws\open-source\rest-sampler\node_modules\request\request.js:373:22)
+    at Request.EventEmitter.emit (events.js:98:17)
+    at Request.<anonymous> (D:\ws\open-source\rest-sampler\node_modules\request\request.js:1318:14)
+    at Request.EventEmitter.emit (events.js:117:20)
+    at IncomingMessage.<anonymous> (D:\ws\open-source\rest-sampler\node_modules\request\request.js:1266:12)
+    at IncomingMessage.EventEmitter.emit (events.js:117:20)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+[2015-01-22 15:52:32.047] [INFO] sampler - -- stopped 
+---------------------------------------------------------------------------
+[2015-01-22 15:52:36.623] [INFO] sampler - start
+---------------------------------------------------------------------------
+sampling
+
+  sampling URL: http://google.com
+  interval    : 5000
+  output file : results.txt
+
+[2015-01-22 15:52:37.639] [WARN] sampler - cannot parse response body: SyntaxError: Unexpected token <
+    at Object.parse (native)
+    at Request._callback (D:\ws\open-source\rest-sampler\lib\sample.js:31:35)
+    at Request.self.callback (D:\ws\open-source\rest-sampler\node_modules\request\request.js:373:22)
+    at Request.EventEmitter.emit (events.js:98:17)
+    at Request.<anonymous> (D:\ws\open-source\rest-sampler\node_modules\request\request.js:1318:14)
+    at Request.EventEmitter.emit (events.js:117:20)
+    at IncomingMessage.<anonymous> (D:\ws\open-source\rest-sampler\node_modules\request\request.js:1266:12)
+    at IncomingMessage.EventEmitter.emit (events.js:117:20)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+[2015-01-22 15:52:44.121] [WARN] sampler - cannot parse response body: SyntaxError: Unexpected token <
+    at Object.parse (native)
+    at Request._callback (D:\ws\open-source\rest-sampler\lib\sample.js:31:35)
+    at Request.self.callback (D:\ws\open-source\rest-sampler\node_modules\request\request.js:373:22)
+    at Request.EventEmitter.emit (events.js:98:17)
+    at Request.<anonymous> (D:\ws\open-source\rest-sampler\node_modules\request\request.js:1318:14)
+    at Request.EventEmitter.emit (events.js:117:20)
+    at IncomingMessage.<anonymous> (D:\ws\open-source\rest-sampler\node_modules\request\request.js:1266:12)
+    at IncomingMessage.EventEmitter.emit (events.js:117:20)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+[2015-01-22 15:52:44.919] [INFO] sampler - -- stopped 
+---------------------------------------------------------------------------
+[2015-01-22 15:53:53.526] [INFO] sampler - started
+sampling
+
+  sampling URL: http://google.com
+  interval    : 5000
+  output file : results.txt
+
+[2015-01-22 15:53:54.095] [WARN] sampler - cannot parse response body: SyntaxError: Unexpected token <
+    at Object.parse (native)
+    at Request._callback (D:\ws\open-source\rest-sampler\lib\sample.js:31:35)
+    at Request.self.callback (D:\ws\open-source\rest-sampler\node_modules\request\request.js:373:22)
+    at Request.EventEmitter.emit (events.js:98:17)
+    at Request.<anonymous> (D:\ws\open-source\rest-sampler\node_modules\request\request.js:1318:14)
+    at Request.EventEmitter.emit (events.js:117:20)
+    at IncomingMessage.<anonymous> (D:\ws\open-source\rest-sampler\node_modules\request\request.js:1266:12)
+    at IncomingMessage.EventEmitter.emit (events.js:117:20)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+[2015-01-22 15:53:54.607] [INFO] sampler - -- stopped 
+--------------------------------------------------------------------------- undefined
+[2015-01-22 15:54:06.157] [INFO] sampler - started
+sampling
+
+  sampling URL: http://google.com
+  interval    : 5000
+  output file : results.txt
+
+[2015-01-22 15:54:07.424] [INFO] sampler - -- stopped 
+--------------------------------------------------------------------------- undefined
+[2015-01-22 15:54:17.180] [INFO] sampler - started
+sampling
+
+  sampling URL: http://google.com
+  interval    : 5000
+  output file : results.txt
+
+[2015-01-22 15:54:17.843] [WARN] sampler - cannot parse response body: SyntaxError: Unexpected token <
+    at Object.parse (native)
+    at Request._callback (D:\ws\open-source\rest-sampler\lib\sample.js:31:35)
+    at Request.self.callback (D:\ws\open-source\rest-sampler\node_modules\request\request.js:373:22)
+    at Request.EventEmitter.emit (events.js:98:17)
+    at Request.<anonymous> (D:\ws\open-source\rest-sampler\node_modules\request\request.js:1318:14)
+    at Request.EventEmitter.emit (events.js:117:20)
+    at IncomingMessage.<anonymous> (D:\ws\open-source\rest-sampler\node_modules\request\request.js:1266:12)
+    at IncomingMessage.EventEmitter.emit (events.js:117:20)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+[2015-01-22 15:54:18.488] [INFO] sampler - -- stopped 
+--------------------------------------------------------------------------- {}
