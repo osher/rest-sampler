@@ -4,10 +4,12 @@ A small CLI utility to sample REST apis every given interval.
 
 Overview
 --------
-*Synopsis:* `node sample -u <rest-api-url>`
+*Synopsis:* `sample -u <rest-api-url>`
 
 Samples the provided <rest-api-url> every 5000 millis,
 emits outputs to console, and saves them also in `./results.txt`.
+
+* Windows uses - See compatibility note bellow
 
 WFT?
 ----
@@ -27,7 +29,7 @@ Features
 
 Usage
 -----
-*Synopsis:* `node sample -u <url> [options]`
+*Synopsis:* `sample -u <url> [options]`
 
 Samples the provided url every 5000 millis, emits outputs to console, and saves them also in `./results.txt`
 
@@ -39,12 +41,22 @@ Options:
   -o, --output     output file of results          [default: "results.txt"]
 ```
 
-*NOTE* if you want to sample few URLs - currenlty, you can run few processes, 
+*NOTE:* if you want to sample few URLs - currenlty, you can run few processes, 
 and direct the results of every URL to a different file.
+
+*Compatibility NOTE:* windows users should have their `%PATH%` set to include `;.\node_modules\.bin` 
+(which is a common practice recommended for node Windows developers), 
+or use the form `node sample -u <url> [options]`.
 
 Install
 -------
 `npm install rest-sampler`
+
+you can also:
+
+`npm install rest-sampler -g`
+
+* *Compatibility NOTE:* windows users - I have a reason to belive latest versions of node-installer take care of %PATH% regarding CLI tools on installed globaly, if not - you'll have to do it yourselves...
 
 Contribute
 ----------
